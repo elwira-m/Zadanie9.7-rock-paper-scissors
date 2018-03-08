@@ -66,13 +66,7 @@ function newGame() {
     playerNameElem.innerHTML = player.name;
     setGamePoints(); // This function has not been created yet
   }
-
 }    
-
-//Zdefiniujmy teraz funkcję, która odpowiada za pobranie wyboru gracza.
-function playerPick(playerPick) {
-    console.log(playerPick);
-}
 
 //wybor komputera
 function getComputerPick() {
@@ -120,7 +114,7 @@ function checkRoundWinner(playerPick, computerPick) {
 setGamePoints();
 checkGameWinner ();
 }
-
+//Zdefiniujmy teraz funkcję, która odpowiada za pobranie wyboru gracza.
 //funkcja powinna wywoływać się za każdym wyborem gracza.
 function playerPick(playerPick) {
     var computerPick = getComputerPick();
